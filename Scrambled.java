@@ -49,8 +49,8 @@ public class Scrambled {
 				ri++;
 				
 				inversions += pivot - li; //We basically have (pivot - li) elements
-										  //greater than array[ri] (since they're sorted)
-			}							  //and each has to be swapped over there after ri.
+							  //greater than array[ri] (since they're sorted)
+			}				  //and each has to be swapped over there after ri.
 			tempIndex++;
 		}
 		
